@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DoomSurvivor.godot.csproj" />
+  <Project Path="tests\DoomSurvivor.Tests.csproj" />
+</Solution>

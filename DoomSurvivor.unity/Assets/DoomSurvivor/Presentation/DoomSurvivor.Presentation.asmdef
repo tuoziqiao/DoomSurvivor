@@ -1,0 +1,11 @@
+{
+  "name": "DoomSurvivor.Presentation",
+  "rootNamespace": "DoomSurvivor.Presentation",
+  "references": [
+    "DoomSurvivor.Core",
+    "DoomSurvivor.Gameplay",
+    "DoomSurvivor.Infrastructure",
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true
+}

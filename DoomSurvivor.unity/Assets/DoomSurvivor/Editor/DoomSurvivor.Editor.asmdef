@@ -1,0 +1,15 @@
+{
+  "name": "DoomSurvivor.Editor",
+  "rootNamespace": "DoomSurvivor.Editor",
+  "references": [
+    "DoomSurvivor.Core",
+    "DoomSurvivor.Gameplay",
+    "DoomSurvivor.Infrastructure",
+    "DoomSurvivor.Presentation",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Universal.2D.Runtime"
+  ],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -1,0 +1,150 @@
+{
+  "version": "1.2.1",
+  "skills": [
+    {
+      "id": "passive_strength",
+      "name": "力量",
+      "description": "提高伤害输出。",
+      "icon": "strength",
+      "type": "passive",
+      "maxLevel": 5,
+      "rarity": "common",
+      "weight": 10,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damageMultiplierBonus": 0.1
+        },
+        "2": {
+          "damageMultiplierBonus": 0.2
+        },
+        "3": {
+          "damageMultiplierBonus": 0.3
+        },
+        "4": {
+          "damageMultiplierBonus": 0.4
+        },
+        "5": {
+          "damageMultiplierBonus": 0.5
+        }
+      }
+    },
+    {
+      "id": "passive_swift",
+      "name": "迅捷",
+      "description": "提高移动速度。",
+      "icon": "swift",
+      "type": "passive",
+      "maxLevel": 5,
+      "rarity": "common",
+      "weight": 9,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "moveSpeedBonus": 0.08
+        },
+        "2": {
+          "moveSpeedBonus": 0.16
+        },
+        "3": {
+          "moveSpeedBonus": 0.24
+        },
+        "4": {
+          "moveSpeedBonus": 0.32
+        },
+        "5": {
+          "moveSpeedBonus": 0.4
+        }
+      }
+    },
+    {
+      "id": "passive_haste",
+      "name": "急速",
+      "description": "提高攻击速度。",
+      "icon": "haste",
+      "type": "passive",
+      "maxLevel": 5,
+      "rarity": "common",
+      "weight": 9,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "attackSpeedBonus": 0.08
+        },
+        "2": {
+          "attackSpeedBonus": 0.16
+        },
+        "3": {
+          "attackSpeedBonus": 0.24
+        },
+        "4": {
+          "attackSpeedBonus": 0.32
+        },
+        "5": {
+          "attackSpeedBonus": 0.4
+        }
+      }
+    },
+    {
+      "id": "passive_magnet",
+      "name": "磁力",
+      "description": "提高经验拾取范围。",
+      "icon": "magnet",
+      "type": "passive",
+      "maxLevel": 5,
+      "rarity": "uncommon",
+      "weight": 8,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "pickupRadiusBonus": 0.15
+        },
+        "2": {
+          "pickupRadiusBonus": 0.3
+        },
+        "3": {
+          "pickupRadiusBonus": 0.45
+        },
+        "4": {
+          "pickupRadiusBonus": 0.6
+        },
+        "5": {
+          "pickupRadiusBonus": 0.8
+        }
+      }
+    },
+    {
+      "id": "passive_toughness",
+      "name": "坚韧",
+      "description": "提高最大生命值和护甲。",
+      "icon": "toughness",
+      "type": "passive",
+      "maxLevel": 5,
+      "rarity": "uncommon",
+      "weight": 8,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "maxHpBonus": 15,
+          "armorBonus": 2
+        },
+        "2": {
+          "maxHpBonus": 30,
+          "armorBonus": 4
+        },
+        "3": {
+          "maxHpBonus": 50,
+          "armorBonus": 6
+        },
+        "4": {
+          "maxHpBonus": 75,
+          "armorBonus": 8
+        },
+        "5": {
+          "maxHpBonus": 100,
+          "armorBonus": 12
+        }
+      }
+    }
+  ]
+}

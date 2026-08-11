@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dtbaq432h5jwu"]
+
+[ext_resource type="Script" uid="uid://dw4l84rum6kjl" path="res://scripts/presentation/AppRoot.cs" id="1_root"]
+
+[node name="AppRoot" type="Node2D" unique_id=1401200289]
+script = ExtResource("1_root")

@@ -1,0 +1,37 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Bb]uild/
+[Bb]uilds/
+
+# IDE / local
+.vs/
+.idea/
+*.csproj.user
+*.sln.DotSettings.user
+*.user
+*.suo
+
+# Local artifacts
+artifacts/
+tmp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pfx
+*.p12
+*.pem
+*.key

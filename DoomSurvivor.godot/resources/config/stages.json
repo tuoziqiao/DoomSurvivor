@@ -1,0 +1,194 @@
+{
+  "version": "1.2.1",
+  "stages": [
+    {
+      "id": "abandoned_city",
+      "name": "晨曦草坪",
+      "description": "绿意繁茂的开阔草坪，林木与野花间潜伏着感染者。",
+      "mapWidth": 6400,
+      "mapHeight": 4800,
+      "normalModeDuration": 600,
+      "quickTestDuration": 180,
+      "maxEnemies": 500,
+      "mapEvents": {
+        "crateCount": 6,
+        "hiddenCrateCount": 3,
+        "hiddenCrateEffects": [
+          {
+            "id": "scooter_boost",
+            "weight": 1,
+            "moveSpeedBonus": 0.5,
+            "duration": 30
+          },
+          {
+            "id": "sniper_rifle",
+            "weight": 1,
+            "duration": 60
+          },
+          {
+            "id": "crate_guide",
+            "weight": 1,
+            "duration": 120
+          }
+        ],
+        "altarCount": 3,
+        "poisonFogCount": 4,
+        "crateInteractRadius": 42,
+        "altarInteractRadius": 50,
+        "crateXpMin": 12,
+        "crateXpMax": 30,
+        "poisonFogRadiusMin": 120,
+        "poisonFogRadiusMax": 220,
+        "poisonFogDps": 10,
+        "poisonFogTickInterval": 0.4,
+        "altarEffects": [
+          {
+            "id": "blood_pact",
+            "weight": 1,
+            "hpCost": 5,
+            "damageBonus": 0.3,
+            "duration": 25
+          },
+          {
+            "id": "purge",
+            "weight": 1,
+            "hpCost": 5,
+            "keepBoss": true
+          },
+          {
+            "id": "magnet_burst",
+            "weight": 1,
+            "hpCost": 5,
+            "pickupRadiusMul": 5,
+            "duration": 4
+          }
+        ],
+        "crateEffects": [
+          {
+            "id": "xp_burst",
+            "weight": 2
+          },
+          {
+            "id": "spawn_boss",
+            "weight": 1
+          },
+          {
+            "id": "spawn_poison_fog",
+            "weight": 1,
+            "fogCount": 5
+          },
+          {
+            "id": "double_level",
+            "weight": 1,
+            "levelUps": 2
+          },
+          {
+            "id": "max_hp_bonus",
+            "weight": 1,
+            "maxHpBonus": 500
+          },
+          {
+            "id": "move_speed_bonus",
+            "weight": 1,
+            "moveSpeedBonus": 0.1
+          },
+          {
+            "id": "magnet_burst",
+            "weight": 1,
+            "pickupRadiusMul": 5,
+            "duration": 60
+          }
+        ]
+      },
+      "spawnTimeline": [
+        {
+          "time": 0,
+          "enemyId": "zombie_normal",
+          "spawnRate": 0.8,
+          "maxConcurrent": 80,
+          "weightMultiplier": 1.0
+        },
+        {
+          "time": 60,
+          "enemyId": "zombie_normal",
+          "spawnRate": 1.2,
+          "maxConcurrent": 120,
+          "weightMultiplier": 1.2
+        },
+        {
+          "time": 120,
+          "enemyId": "zombie_fast",
+          "spawnRate": 0.5,
+          "maxConcurrent": 40,
+          "weightMultiplier": 1.0
+        },
+        {
+          "time": 180,
+          "enemyId": "zombie_elite",
+          "spawnRate": 0.05,
+          "maxConcurrent": 2,
+          "weightMultiplier": 1.0,
+          "isElite": true
+        },
+        {
+          "time": 200,
+          "enemyId": "zombie_leader",
+          "spawnRate": 0.12,
+          "maxConcurrent": 6,
+          "weightMultiplier": 1.0
+        },
+        {
+          "time": 240,
+          "enemyId": "zombie_fat",
+          "spawnRate": 0.22,
+          "maxConcurrent": 8,
+          "weightMultiplier": 1.0
+        },
+        {
+          "time": 300,
+          "enemyId": "zombie_normal",
+          "spawnRate": 1.5,
+          "maxConcurrent": 150,
+          "weightMultiplier": 1.5
+        },
+        {
+          "time": 360,
+          "enemyId": "zombie_elite",
+          "spawnRate": 0.08,
+          "maxConcurrent": 4,
+          "weightMultiplier": 1.0,
+          "isElite": true
+        },
+        {
+          "time": 420,
+          "enemyId": "zombie_fast",
+          "spawnRate": 1.0,
+          "maxConcurrent": 60,
+          "weightMultiplier": 1.3
+        },
+        {
+          "time": 480,
+          "enemyId": "zombie_normal",
+          "spawnRate": 2.0,
+          "maxConcurrent": 200,
+          "weightMultiplier": 2.0
+        },
+        {
+          "time": 540,
+          "enemyId": "zombie_normal",
+          "spawnRate": 2.5,
+          "maxConcurrent": 250,
+          "weightMultiplier": 2.5
+        },
+        {
+          "time": 540,
+          "enemyId": "boss_mutant_giant",
+          "spawnRate": 0,
+          "maxConcurrent": 1,
+          "weightMultiplier": 1.0,
+          "isBoss": true
+        }
+      ]
+    }
+  ]
+}

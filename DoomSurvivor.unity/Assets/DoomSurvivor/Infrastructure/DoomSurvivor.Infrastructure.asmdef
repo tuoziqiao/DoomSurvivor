@@ -1,0 +1,8 @@
+{
+  "name": "DoomSurvivor.Infrastructure",
+  "rootNamespace": "DoomSurvivor.Infrastructure",
+  "references": [
+    "DoomSurvivor.Core",
+    "Unity.Newtonsoft.Json"
+  ]
+}

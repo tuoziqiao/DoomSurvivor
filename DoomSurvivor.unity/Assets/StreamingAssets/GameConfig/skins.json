@@ -1,0 +1,174 @@
+{
+  "version": "1.2.1",
+  "skins": [
+    {
+      "id": "lin_xian_wasteland",
+      "characterId": "lin_xian",
+      "name": "废土行者",
+      "description": "江户川柯南穿越废墟时常用的轻便行装。",
+      "unlockByDefault": true,
+      "modelAsset": "p1.png",
+      "palette": {
+        "primary": "#457188",
+        "secondary": "#2F4D5E",
+        "accent": "#C45A3A"
+      }
+    },
+    {
+      "id": "lin_xian_night_watch",
+      "characterId": "lin_xian",
+      "name": "夜巡者",
+      "description": "适合低光环境巡查的深色装备。",
+      "unlockByDefault": true,
+      "modelAsset": "p1.png",
+      "palette": {
+        "primary": "#303A52",
+        "secondary": "#1D2738",
+        "accent": "#57C7FF"
+      }
+    },
+    {
+      "id": "lin_xian_field_medic",
+      "characterId": "lin_xian",
+      "name": "荒原救援",
+      "description": "带有醒目标记的荒原救援制服。",
+      "unlockByDefault": true,
+      "modelAsset": "p1.png",
+      "palette": {
+        "primary": "#5A7058",
+        "secondary": "#35483A",
+        "accent": "#E7D8B1"
+      }
+    },
+    {
+      "id": "su_lan_scout",
+      "characterId": "su_lan",
+      "name": "城市斥候",
+      "description": "便于快速穿行城市断壁的轻装。",
+      "unlockByDefault": true,
+      "modelAsset": "p2.png",
+      "palette": {
+        "primary": "#7B3F59",
+        "secondary": "#4E2C45",
+        "accent": "#7DDEA8"
+      }
+    },
+    {
+      "id": "su_lan_ash_hunter",
+      "characterId": "su_lan",
+      "name": "灰烬猎手",
+      "description": "在焦土与烟尘中保持隐蔽的猎装。",
+      "unlockByDefault": true,
+      "modelAsset": "p2.png",
+      "palette": {
+        "primary": "#5C5550",
+        "secondary": "#302D2A",
+        "accent": "#E06B3C"
+      }
+    },
+    {
+      "id": "su_lan_neon_trace",
+      "characterId": "su_lan",
+      "name": "霓虹追迹",
+      "description": "旧城霓虹风格的高识别度行动服。",
+      "unlockByDefault": true,
+      "modelAsset": "p2.png",
+      "palette": {
+        "primary": "#2F3A68",
+        "secondary": "#1E2448",
+        "accent": "#D85CFF"
+      }
+    },
+    {
+      "id": "han_duo_engineer",
+      "characterId": "han_duo",
+      "name": "废墟工程师",
+      "description": "赤井秀一维修无人机时使用的耐磨工装。",
+      "unlockByDefault": true,
+      "modelAsset": "p6.png",
+      "palette": {
+        "primary": "#8A673B",
+        "secondary": "#514532",
+        "accent": "#F2B544"
+      }
+    },
+    {
+      "id": "han_duo_heavy_guard",
+      "characterId": "han_duo",
+      "name": "重装警戒",
+      "description": "强化防护轮廓的警戒装备。",
+      "unlockByDefault": true,
+      "modelAsset": "p6.png",
+      "palette": {
+        "primary": "#4B5664",
+        "secondary": "#2B323B",
+        "accent": "#E24A4A"
+      }
+    },
+    {
+      "id": "han_duo_sand_mechanic",
+      "characterId": "han_duo",
+      "name": "沙暴机修",
+      "description": "为沙尘与高温环境改造的机修服。",
+      "unlockByDefault": true,
+      "modelAsset": "p6.png",
+      "palette": {
+        "primary": "#A07B4E",
+        "secondary": "#5E4935",
+        "accent": "#65D3C8"
+      }
+    },
+    {
+      "id": "gu_chen_street",
+      "characterId": "gu_chen",
+      "name": "街区少年",
+      "description": "工藤新一常用的轻便街区装束。",
+      "unlockByDefault": true,
+      "modelAsset": "p3.png",
+      "palette": {
+        "primary": "#4F8A55",
+        "secondary": "#314A73",
+        "accent": "#F0D16A"
+      }
+    },
+    {
+      "id": "ye_qing_field",
+      "characterId": "ye_qing",
+      "name": "行动外套",
+      "description": "毛利兰适合快速行动的蓝色外套。",
+      "unlockByDefault": true,
+      "modelAsset": "p4.png",
+      "palette": {
+        "primary": "#4A9AC5",
+        "secondary": "#252D5D",
+        "accent": "#F0B0C3"
+      }
+    },
+    {
+      "id": "mu_xue_agent",
+      "characterId": "mu_xue",
+      "name": "情报员",
+      "description": "茱蒂执行侦察任务时的深色正装。",
+      "unlockByDefault": true,
+      "modelAsset": "p5.png",
+      "palette": {
+        "primary": "#353452",
+        "secondary": "#242333",
+        "accent": "#B8A9CF"
+      }
+    },
+    {
+      "id": "lu_chuan_vanguard",
+      "characterId": "lu_chuan",
+      "name": "前线守卫",
+      "description": "安室透用于前线巡逻的轻型战术装束。",
+      "unlockByDefault": true,
+      "modelAsset": "p7.png",
+      "palette": {
+        "primary": "#F0EEE7",
+        "secondary": "#34333B",
+        "accent": "#B39B63"
+      }
+    }
+  ]
+}

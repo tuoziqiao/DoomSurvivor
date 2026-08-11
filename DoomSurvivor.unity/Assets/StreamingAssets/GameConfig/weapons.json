@@ -1,0 +1,415 @@
+{
+  "version": "1.2.1",
+  "weapons": [
+    {
+      "id": "wind_blade",
+      "name": "风刃",
+      "description": "向最近敌人发射可穿透的直线风刃。",
+      "icon": "wind_blade",
+      "type": "weapon",
+      "maxLevel": 8,
+      "rarity": "common",
+      "weight": 10,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 12,
+          "projectileCount": 1,
+          "cooldown": 1.2,
+          "penetration": 2,
+          "range": 528,
+          "projectileSpeed": 500
+        },
+        "2": {
+          "damage": 15,
+          "projectileCount": 1,
+          "cooldown": 1.1,
+          "penetration": 3,
+          "range": 554,
+          "projectileSpeed": 520
+        },
+        "3": {
+          "damage": 18,
+          "projectileCount": 2,
+          "cooldown": 1,
+          "penetration": 3,
+          "range": 581,
+          "projectileSpeed": 540
+        },
+        "4": {
+          "damage": 22,
+          "projectileCount": 2,
+          "cooldown": 0.95,
+          "penetration": 4,
+          "range": 607,
+          "projectileSpeed": 560
+        },
+        "5": {
+          "damage": 26,
+          "projectileCount": 3,
+          "cooldown": 0.9,
+          "penetration": 4,
+          "range": 634,
+          "projectileSpeed": 580
+        },
+        "6": {
+          "damage": 30,
+          "projectileCount": 3,
+          "cooldown": 0.85,
+          "penetration": 5,
+          "range": 660,
+          "projectileSpeed": 600
+        },
+        "7": {
+          "damage": 35,
+          "projectileCount": 4,
+          "cooldown": 0.8,
+          "penetration": 5,
+          "range": 686,
+          "projectileSpeed": 620
+        },
+        "8": {
+          "damage": 42,
+          "projectileCount": 4,
+          "cooldown": 0.75,
+          "penetration": 6,
+          "range": 726,
+          "projectileSpeed": 650
+        }
+      }
+    },
+    {
+      "id": "rotating_knife",
+      "name": "飞轮术",
+      "description": "三齿飞轮围绕玩家高速旋转，接触敌人造成伤害；满级进化为金轮术。",
+      "icon": "rotating_knife",
+      "type": "weapon",
+      "maxLevel": 8,
+      "promotion": {
+        "name": "金轮术",
+        "icon": "rotating_knife_gold",
+        "battleSprite": "rotating_knife_gold",
+        "description": "三齿金轮高速旋转，满级进化形态。"
+      },
+      "rarity": "common",
+      "weight": 8,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 8,
+          "knifeCount": 2,
+          "orbitRadius": 60,
+          "rotationSpeed": 2,
+          "knifeSize": 12
+        },
+        "2": {
+          "damage": 10,
+          "knifeCount": 2,
+          "orbitRadius": 65,
+          "rotationSpeed": 2.2,
+          "knifeSize": 12
+        },
+        "3": {
+          "damage": 12,
+          "knifeCount": 2,
+          "orbitRadius": 70,
+          "rotationSpeed": 2.5,
+          "knifeSize": 14
+        },
+        "4": {
+          "damage": 15,
+          "knifeCount": 3,
+          "orbitRadius": 75,
+          "rotationSpeed": 2.8,
+          "knifeSize": 14
+        },
+        "5": {
+          "damage": 18,
+          "knifeCount": 3,
+          "orbitRadius": 80,
+          "rotationSpeed": 3,
+          "knifeSize": 16
+        },
+        "6": {
+          "damage": 22,
+          "knifeCount": 4,
+          "orbitRadius": 85,
+          "rotationSpeed": 3.2,
+          "knifeSize": 16
+        },
+        "7": {
+          "damage": 26,
+          "knifeCount": 4,
+          "orbitRadius": 90,
+          "rotationSpeed": 3.5,
+          "knifeSize": 18
+        },
+        "8": {
+          "damage": 32,
+          "knifeCount": 5,
+          "orbitRadius": 95,
+          "rotationSpeed": 4,
+          "knifeSize": 18
+        }
+      }
+    },
+    {
+      "id": "fubo_qin",
+      "name": "伏波琴",
+      "description": "在玩家周围展开音波结界，持续震荡并伤害范围内敌人。",
+      "icon": "fubo_qin",
+      "type": "weapon",
+      "maxLevel": 8,
+      "promotion": {
+        "name": "长生伏波琴",
+        "icon": "fubo_qin_gold",
+        "battleSprite": "fubo_qin_gold",
+        "description": "金色音波结界持续脉动，满级进化形态。"
+      },
+      "rarity": "rare",
+      "weight": 5,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 5,
+          "tickInterval": 0.4,
+          "ripplePulseSpeed": 2.2
+        },
+        "2": {
+          "damage": 6,
+          "tickInterval": 0.39,
+          "ripplePulseSpeed": 2.3
+        },
+        "3": {
+          "damage": 8,
+          "tickInterval": 0.38,
+          "ripplePulseSpeed": 2.4
+        },
+        "4": {
+          "damage": 10,
+          "tickInterval": 0.37,
+          "ripplePulseSpeed": 2.5
+        },
+        "5": {
+          "damage": 12,
+          "tickInterval": 0.36,
+          "ripplePulseSpeed": 2.6
+        },
+        "6": {
+          "damage": 15,
+          "tickInterval": 0.35,
+          "ripplePulseSpeed": 2.8
+        },
+        "7": {
+          "damage": 18,
+          "tickInterval": 0.34,
+          "ripplePulseSpeed": 3.0
+        },
+        "8": {
+          "damage": 22,
+          "tickInterval": 0.32,
+          "ripplePulseSpeed": 3.2
+        }
+      }
+    },
+    {
+      "id": "fire_bottle",
+      "name": "火焰瓶",
+      "description": "投向敌人密集区域，落地形成持续燃烧区域。",
+      "icon": "fire_bottle",
+      "type": "weapon",
+      "maxLevel": 8,
+      "rarity": "uncommon",
+      "weight": 7,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 6,
+          "cooldown": 3,
+          "zoneRadius": 50,
+          "zoneDuration": 3,
+          "tickInterval": 0.5
+        },
+        "2": {
+          "damage": 8,
+          "cooldown": 2.8,
+          "zoneRadius": 55,
+          "zoneDuration": 3.5,
+          "tickInterval": 0.5
+        },
+        "3": {
+          "damage": 10,
+          "cooldown": 2.6,
+          "zoneRadius": 60,
+          "zoneDuration": 4,
+          "tickInterval": 0.45
+        },
+        "4": {
+          "damage": 12,
+          "cooldown": 2.4,
+          "zoneRadius": 65,
+          "zoneDuration": 4,
+          "tickInterval": 0.45
+        },
+        "5": {
+          "damage": 15,
+          "cooldown": 2.2,
+          "zoneRadius": 70,
+          "zoneDuration": 4.5,
+          "tickInterval": 0.4
+        },
+        "6": {
+          "damage": 18,
+          "cooldown": 2,
+          "zoneRadius": 75,
+          "zoneDuration": 5,
+          "tickInterval": 0.4
+        },
+        "7": {
+          "damage": 22,
+          "cooldown": 1.8,
+          "zoneRadius": 80,
+          "zoneDuration": 5,
+          "tickInterval": 0.35
+        },
+        "8": {
+          "damage": 28,
+          "cooldown": 1.6,
+          "zoneRadius": 90,
+          "zoneDuration": 6,
+          "tickInterval": 0.35
+        }
+      }
+    },
+    {
+      "id": "lightning_chain",
+      "name": "雷电链",
+      "description": "攻击随机敌人，可跳跃到附近目标。",
+      "icon": "lightning_chain",
+      "type": "weapon",
+      "maxLevel": 8,
+      "rarity": "uncommon",
+      "weight": 6,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 15,
+          "cooldown": 2,
+          "chainCount": 2,
+          "chainRange": 120
+        },
+        "2": {
+          "damage": 18,
+          "cooldown": 1.9,
+          "chainCount": 3,
+          "chainRange": 130
+        },
+        "3": {
+          "damage": 22,
+          "cooldown": 1.8,
+          "chainCount": 3,
+          "chainRange": 140
+        },
+        "4": {
+          "damage": 26,
+          "cooldown": 1.7,
+          "chainCount": 4,
+          "chainRange": 150
+        },
+        "5": {
+          "damage": 30,
+          "cooldown": 1.6,
+          "chainCount": 4,
+          "chainRange": 160
+        },
+        "6": {
+          "damage": 36,
+          "cooldown": 1.5,
+          "chainCount": 5,
+          "chainRange": 170
+        },
+        "7": {
+          "damage": 42,
+          "cooldown": 1.4,
+          "chainCount": 5,
+          "chainRange": 180
+        },
+        "8": {
+          "damage": 50,
+          "cooldown": 1.3,
+          "chainCount": 6,
+          "chainRange": 200
+        }
+      }
+    },
+    {
+      "id": "drone",
+      "name": "无人机",
+      "description": "围绕玩家飞行，自动寻找敌人射击。",
+      "icon": "drone",
+      "type": "weapon",
+      "maxLevel": 8,
+      "rarity": "rare",
+      "weight": 5,
+      "prerequisites": [],
+      "levelEffects": {
+        "1": {
+          "damage": 8,
+          "droneCount": 1,
+          "orbitRadius": 106,
+          "fireRate": 1.5,
+          "projectileSpeed": 400
+        },
+        "2": {
+          "damage": 10,
+          "droneCount": 1,
+          "orbitRadius": 112,
+          "fireRate": 1.6,
+          "projectileSpeed": 420
+        },
+        "3": {
+          "damage": 12,
+          "droneCount": 2,
+          "orbitRadius": 119,
+          "fireRate": 1.7,
+          "projectileSpeed": 440
+        },
+        "4": {
+          "damage": 15,
+          "droneCount": 2,
+          "orbitRadius": 125,
+          "fireRate": 1.8,
+          "projectileSpeed": 460
+        },
+        "5": {
+          "damage": 18,
+          "droneCount": 2,
+          "orbitRadius": 132,
+          "fireRate": 2,
+          "projectileSpeed": 480
+        },
+        "6": {
+          "damage": 22,
+          "droneCount": 3,
+          "orbitRadius": 139,
+          "fireRate": 2.2,
+          "projectileSpeed": 500
+        },
+        "7": {
+          "damage": 26,
+          "droneCount": 3,
+          "orbitRadius": 145,
+          "fireRate": 2.4,
+          "projectileSpeed": 520
+        },
+        "8": {
+          "damage": 32,
+          "droneCount": 4,
+          "orbitRadius": 152,
+          "fireRate": 2.6,
+          "projectileSpeed": 550
+        }
+      }
+    }
+  ]
+}

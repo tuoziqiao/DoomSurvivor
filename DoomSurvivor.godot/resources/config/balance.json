@@ -1,0 +1,57 @@
+{
+  "version": "1.2.1",
+  "experience": {
+    "levelThresholds": [
+      10,
+      15,
+      22,
+      30,
+      40,
+      52,
+      65,
+      80,
+      98,
+      118,
+      140,
+      165,
+      192,
+      222,
+      255,
+      290,
+      328,
+      370,
+      415,
+      463
+    ],
+    "crystalValues": {
+      "small": 1,
+      "medium": 5,
+      "large": 20
+    },
+    "crystalMergeThreshold": 80,
+    "crystalMergeDistance": 30
+  },
+  "combat": {
+    "damageVarianceMin": 0.95,
+    "damageVarianceMax": 1.05,
+    "invincibilityDuration": 0.5,
+    "knockbackForce": 120,
+    "maxDamageNumbersPerSecond": 30
+  },
+  "player": {
+    "acceleration": 1200,
+    "deceleration": 1000,
+    "maxWeapons": 6,
+    "maxPassiveSkills": 5
+  },
+  "spawn": {
+    "minSpawnDistanceFromPlayer": 400,
+    "spawnPadding": 100
+  },
+  "performance": {
+    "desktopMaxEnemies": 500,
+    "mobileMaxEnemies": 250,
+    "spatialHashCellSize": 64,
+    "offscreenUpdateInterval": 3
+  }
+}

@@ -1,0 +1,35 @@
+# Generated files shared by the Unity and Godot projects
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/artifacts/
+**/.godot/
+**/bin/
+**/obj/
+**/*.log
+
+# Local Godot tooling and downloaded editor binaries
+DoomSurvivor.godot/.codex/
+
+# IDE and machine-local files
+**/.vs/
+**/.idea/
+**/*.csproj.user
+**/*.suo
+**/*.user
+**/*.sln.DotSettings.user
+
+# Local secrets and OS files
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pfx
+**/*.p12
+**/*.pem
+**/*.key
+**/.DS_Store
+**/Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "name": "DoomSurvivor.PlayModeTests",
+  "rootNamespace": "DoomSurvivor.Tests.PlayMode",
+  "references": [
+    "DoomSurvivor.Core",
+    "DoomSurvivor.Gameplay",
+    "DoomSurvivor.Infrastructure",
+    "DoomSurvivor.Presentation"
+  ],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

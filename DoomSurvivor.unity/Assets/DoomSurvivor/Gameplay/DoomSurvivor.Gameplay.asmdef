@@ -1,0 +1,8 @@
+{
+  "name": "DoomSurvivor.Gameplay",
+  "rootNamespace": "DoomSurvivor.Gameplay",
+  "references": [
+    "DoomSurvivor.Core",
+    "Unity.InputSystem"
+  ]
+}
