@@ -120,6 +120,24 @@ public static class SurvivorUiTheme
         control.AddThemeStyleboxOverride("panel", logo);
     }
 
+    public static void ApplyWoodPanel(Control control)
+    {
+        var wood = new StyleBoxFlat
+        {
+            BgColor = new Color(0.25f, 0.13f, 0.055f, 0.82f),
+            BorderColor = new Color(0.95f, 0.72f, 0.3f, 0.92f),
+            ShadowColor = new Color(0f, 0f, 0f, 0.38f),
+            ShadowSize = 8,
+            ContentMarginLeft = 14,
+            ContentMarginTop = 10,
+            ContentMarginRight = 14,
+            ContentMarginBottom = 10
+        };
+        wood.SetBorderWidthAll(2);
+        wood.SetCornerRadiusAll(16);
+        control.AddThemeStyleboxOverride("panel", wood);
+    }
+
     public static void ApplySection(Control control, Color accent)
     {
         var section = new StyleBoxFlat

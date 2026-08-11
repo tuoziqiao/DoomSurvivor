@@ -416,7 +416,7 @@ public partial class MobileGame : Node2D
             Position = new Vector2(28, 24),
             Size = new Vector2(320, 90)
         };
-        SurvivorUiTheme.ApplySection(profileCard, SurvivorUiTheme.GreenBright);
+        SurvivorUiTheme.ApplyWoodPanel(profileCard);
         homeLayer.AddChild(profileCard);
         var profileMargin = new MarginContainer { Name = "HomeProfileMargin" };
         profileMargin.AddThemeConstantOverride("margin_left", 10);
@@ -455,7 +455,7 @@ public partial class MobileGame : Node2D
             Position = new Vector2(viewportSize.X - 370f, 24),
             Size = new Vector2(342, 90)
         };
-        SurvivorUiTheme.ApplySection(recordCard, SurvivorUiTheme.BlueBright);
+        SurvivorUiTheme.ApplyWoodPanel(recordCard);
         homeLayer.AddChild(recordCard);
         var recordMargin = new MarginContainer { Name = "HomeRecordMargin" };
         recordMargin.AddThemeConstantOverride("margin_left", 14);
@@ -849,7 +849,7 @@ public partial class MobileGame : Node2D
         settingsContentMargin.AddThemeConstantOverride("margin_bottom", 16);
         settingsContentPanel.AddChild(settingsContentMargin);
         settingsContent = new VBoxContainer { Name = "SettingsContent" };
-        settingsContent.AddThemeConstantOverride("separation", 7);
+        settingsContent.AddThemeConstantOverride("separation", 5);
         settingsContentMargin.AddChild(settingsContent);
 
         if (settingsUiArt is not null)
@@ -1260,7 +1260,7 @@ public partial class MobileGame : Node2D
     private void AddSettingsHint(string text)
     {
         var hint = new Label { Text = text, AutowrapMode = TextServer.AutowrapMode.WordSmart };
-        hint.CustomMinimumSize = new Vector2(0, 48);
+        hint.CustomMinimumSize = new Vector2(0, 36);
         SurvivorUiTheme.ApplyInk(hint, true);
         hint.AddThemeFontSizeOverride("font_size", 14);
         settingsContent!.AddChild(hint);
@@ -1269,7 +1269,7 @@ public partial class MobileGame : Node2D
     private void AddSettingsButton(string text, Action action)
     {
         var button = new Button { Text = text };
-        button.CustomMinimumSize = new Vector2(0, 46);
+        button.CustomMinimumSize = new Vector2(0, 44);
         button.Alignment = HorizontalAlignment.Left;
         SurvivorUiTheme.ApplyParchmentButton(button);
         button.Pressed += action;
